@@ -1,0 +1,20 @@
+# Django LTS versiyasi
+Django==5.2.1
+
+# Django REST Framework
+djangorestframework==3.15.1
+
+# Agar PostgreSQL ishlatayotgan bo‘lsangiz:
+psycopg2-binary==2.9.9
+
+# CORS uchun (frontend bilan aloqada foydali)
+django-cors-headers==4.3.1
+
+# Muhit o‘zgaruvchilari bilan ishlash uchun
+python-decouple==3.8
+
+# Gunicorn — deployment uchun (masalan, Render yoki Heroku’da)
+gunicorn==23.0.0
+
+# Agar fayl yuklash yoki media fayllar kerak bo‘lsa
+Pillow==10.3.0

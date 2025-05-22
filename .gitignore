@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+*.pyo
+
+# Environments
+.env
+.venv/
+venv/
+env/
+ENV/
+
+# Poetry
+poetry.lock
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Django
+db.sqlite3
+/static/
+/media/
+
+# Migrations
+**/migrations/*.py
+!**/migrations/__init__.py
+
+# Logs
+*.log
+
+# Compiled files
+*.so
+*.dll
+*.dylib
+
+# OS
+.DS_Store
+Thumbs.db
